@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form-task</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="customer-details-text">
+      <p>Customer Details:</p>
+      
+    </div>
+    
+
+    <div class="form">
+      
+          <form>
+        <label for="name" class="head-label">Full Name</label>
+        <span class="asterisk">*</span>
+        <div class="full-name">
+          <span>
+            <input id="name" class="input-with-bottom short-input" />
+            <label class="bottom-label">First Name</label>
+          </span>
+          <span class="last-name">
+            <input id="name" class="input-with-bottom short-input" />
+            <label class="bottom-label">Last Name</label>
+          </span>
+        </div>
+        <label class="head-label">Address</label>
+        <span class="asterisk">*</span>
+
+        <input class="long-input input-with-bottom" />
+        <label class="bottom-label">Street Address</label>
+        <input class="long-input input-with-bottom" />
+        <label class="bottom-label">Street Address Line 2</label>
+        <div class="city full-name">
+          <span>
+            <input class="input-with-bottom short-input" />
+            <label class="bottom-label">City</label>
+          </span>
+          <span class="last-name">
+            <input class="input-with-bottom short-input" />
+            <label class="bottom-label">State / Province</label>
+          </span>
+        </div>
+        <div class="margin-bottom">
+          <input class="long-input input-with-bottom" />
+          <label class="bottom-label">Postal / Zip Code</label>
+        </div>
+        <div class="phone-mail margin-bottom">
+        <label class="head-label">Phone Number</label>
+        <span class="asterisk">*</span>
+        <input type="number" class="short-input margin-bottom " placeholder="(000) 000 0000">
+        <label class="head-label">E-mail</label>
+        <input class="short-input mail" placeholder="ex: email@yahoo.com">
+        <label class="bottom-label">example@example.com</label>
+    </div>
+    <hr />
+    <label class="head-label">How did you hear about us</label> <span class="asterisk">*</span>
+      <select class="short-input margin-bottom">
+        <option>Please Select</option>
+        <option>From friend</option>
+        <option>From TV</option>
+        <option>From Facebook</option>
+        <option>From Instagram</option>
+        <option>Other</option>
+      </select>
+<label class="head-label">Feedback about us:</label>
+<textarea></textarea>
+<label class="head-label">Suggestions if any for further improvement:</label>
+<textarea></textarea>
+<label class="head-label" for="recommend-question" id="question">Will you be willing to recommend us?</label>
+<div class="choose">
+  <div>
+<input type="checkbox" id="recommend-question"value="yes"> 
+<label for="yes" class="choose">Yes</label>
+</div>
+<div>
+<input type="checkbox" id="recommend-question"value="maybe">
+<label for="maybe" class="choose">Maybe</label>
+</div>
+<div>
+<input type="checkbox" id="recommend-question"value="no">
+<label for="no" class="choose">No</label>
+</div>
+</div>
+<label class="head-label" id="reference">Please give reference of any two people whom you feel:</label>
+  
+<table>
+<tr>
+  <th></th>
+  <th>Full Name</th>
+  <th>Address</th>
+  <th>Contact Number</th>
+</tr>
+<tr>
+  <td>1</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+
+</table>
+
+<div class="footer">
+  <hr />
+  <button type="submit">Submit</button>
+</div>
+
+
+</form>
+
+      
+  </body>
+</html>

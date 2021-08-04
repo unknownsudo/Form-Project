@@ -1,0 +1,251 @@
+body {
+    background-color: #ECEDF3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2C3345;
+    margin: 4vh;
+}
+
+input::placeholder {
+    color: #8995AC;
+    font-size: 12px;
+    
+}
+
+body input {
+    margin: 0;
+    padding: 0;
+    border: none;
+  
+}
+
+.form {
+    width: 50vw;
+    border: 2px solid #E4E5EC;
+    border-top: none;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+ }
+
+.customer-details-text {
+    width: 50vw;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 30px;
+    border: 2px solid #E4E5EC;
+    border-bottom: 1px solid #E4E5EC;
+}
+
+.customer-details-text:hover {
+    cursor: default;
+}
+
+label {
+    display: block;
+}
+
+.input-with-bottom {
+    border-radius: 4px;
+    margin-bottom: 0.5vh;
+}
+
+.short-input {
+    width: 23vw;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #C3CAD8;
+    padding-left: 4px;
+    outline: none;
+}
+
+.head-label {
+    margin-bottom: 1vh;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.bottom-label {
+    color: #57647E;
+    font-size: 12px;
+    margin-bottom: 3vh;
+}
+
+
+.full-name {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.last-name {
+    margin-left: auto;
+}
+
+.asterisk {
+    color: red;
+    font-size: 25px;
+    cursor: default;
+}
+
+.long-input {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    height: 30px;
+    border: 1px solid #C3CAD8;
+    padding: 0px;
+    outline: none;
+}
+
+.city {
+    margin-bottom: 0px;
+}
+
+.margin-bottom {
+    margin-bottom: 5vh;
+    display: block;
+}
+
+.phone-mail input {
+    display: block;
+}
+
+.mail {
+    margin-bottom: 0.5vh;
+}
+
+hr {
+    background-color: #9A9A9A;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+select {
+    color: #8995AC;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 14vh;
+    display: block;
+    margin-bottom: 6vh;
+    border-radius: 4px;
+    border-color: #8995AC;
+    outline: none;
+}
+
+#question {
+    display: block;
+    margin-bottom: 2vh;
+}
+
+.choose {
+    margin-bottom: 2vh;
+}
+
+.choose div {
+    display: flex;
+   
+}
+
+.choose label {
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+#reference {
+    margin-bottom: 2vh;
+    display: block;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+table, th, td {
+    border-spacing: 0;
+}
+
+th {
+    background-color: #E5EAF4;
+    padding: 10px;
+    border: 1px solid #C3CAD8;
+    font-size: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #C3CAD8;
+}
+
+
+
+td:first-child {
+    background-color: #E5EAF4;
+    max-width: 0;
+}
+
+th:first-child {
+    background-color: white;
+    border: none;
+}
+
+table tr th:last-child {
+    border-top-right-radius: 4px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 4px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 4px;
+} 
+
+table tr:nth-child(2) td:first-child {
+    border-top-left-radius: 4px;
+}
+
+table tr:first-child th:nth-child(2) {
+    border-top-left-radius: 4px;
+}
+
+table:last-child {
+   border-bottom-right-radius: 4px;
+}
+
+.simple-line {
+    height: 1px;
+    background-color: #9A9A9A;
+    width: 100%;
+    position: absolute;
+}
+
+.form > .simple-line {
+    padding: 0;
+}
+
+.footer button {
+    background-color: #18BD5B;
+    color: white;
+    border: none;
+    padding: 12px 25px 12px 25px;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.footer button:hover {
+    cursor: pointer;
+}
+
+
